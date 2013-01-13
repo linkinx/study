@@ -15,5 +15,5 @@ for letter in guid:
         numbers += 1
 total = letters + numbers
 guidfile = open("GUID.txt", 'a+b')
-guidfile.write('{0} >>>>>> {1}digits\n'.format(guid, total))
+guidfile.write('GUID >>>> {0} >>>>>>     {1}digits\n'.format(guid, total))
 guidfile.close()
